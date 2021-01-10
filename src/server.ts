@@ -3,6 +3,6 @@ const app = express();
 
 
 app.get('/',(request,response)=>{
-    return response.json({message:'olá mundo'})
+    return response.json({message:'hello word'})
 })
 app.listen(8080);
